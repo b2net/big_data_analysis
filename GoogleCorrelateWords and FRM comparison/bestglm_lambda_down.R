@@ -1,0 +1,56 @@
+### Import the Datasets
+Lambda_mean <- read.csv("Lambda_Zeitreihe_Mai15_weekly.csv",header=TRUE,sep=";",dec=",")
+ctest  <- read.csv("Google_Correlate_with_downturn.csv",header=TRUE,sep=";",dec=",")
+
+### Install Package
+#install.packages("bestglm")
+library(bestglm)
+
+plot(Lambda_mean[,2],type="l",pch=1,col="red",xaxt="n",xlab="Date",ylab="Lambda",main="Financial Risk Meter",ylim=c(0,0.15),lwd=2)
+axis(1,at=c(1:nrow(Lambda_mean)),labels=Lambda_mean[,1])
+
+###  Erase / Deselect suspicious predictor variables
+ctest
+ctest_clean <- data.frame(ctest)
+
+ctest_clean <- subset(ctest, select=-c(acai,acai.berry, banorte.mexico, blow.ya.back.out,
+                                       X18.days.lyrics,motor.arcade,unknown,motorbike.games,
+                                       te.regalo.amores.lyrics,break.me.down.if.it.makes.you.feel.right,
+                                       matlab.2008b,notepad.2008,lions.tigers.and.bears.lyrics,
+                                       unknown.1,vmware.server.2,saving.abel.18.days.lyrics,
+                                       seether.breakdown.lyrics,el.angel, rolling.turtle,
+                                       killers.spaceman,eclipse.3.4.1, she.got.her.own,
+                                       song.love.story,hottest.only,got.her.own,filezilla.free,
+                                       the.killers.spaceman, que.quede.claro, netbeans.6.5,
+                                       smallville.season.8.episode.guide,samsung.sway,
+                                       acai.berry.reviews,luna.eddy.lover,y.que.quede.claro,
+                                       uphill.rush.game,founding.farmers.restaurant,
+                                       gorilla.zoe.lost,jeremy.camp.there.will.be.a.day,
+                                       filezilla.free.download,casting.crowns.slow.fade,
+                                       thesaurus.free, my.story.by.sean.mcgee,cuidado.con.el.angel,
+                                       ron.browz,uyg,seether.breakdown,slow.fade, slow.fade.lyrics,
+                                       smoking.my.cancer,economy.jokes,lost.gorilla.zoe,
+                                       framing.hanley.lollipop,pbwiki.login,tan.her.hide,
+                                       slam.crunk,socialvibe,alternext,gdp.2008,us.gdp.2008,
+                                       mil.demonios,lost.by.gorilla.zoe,synthasite.com,
+                                       saving.abel.18.days),drop=TRUE)
+
+## bestGLM Regression
+regsub <- regsubsets(x=ctest_clean[184:584,c(2:10)],y=Lambda_mean[1:401,2],nvmax=4)
+summary(regsub)
+summary(regsub)$adjr2
+
+dev.new()
+# Alternative quality criteria 
+plot(regsub) # In there the BIC criteria is used. The smaller the value the better is the variable/model.
+summary(regsub)$bic
+summary(regsub,all.best=TRUE,matrix=TRUE,matrix.logical=FALSE,df=NULL)  
+
+# Compare with Linear Regression Model
+# down.economy -- FRM shifted 5 weeks backwards  = down.economy shifted 5 weeks forwards (-5)
+lm_down_eco <- lm(Lambda_mean[1:401,2]~ctest_clean[179:579,"down.economy"])
+summary(lm_down_eco)
+
+dev.new()
+plot(Lambda_mean[1:401,2]~ctest_clean[181:581,"down.economy"], main="Regression", ylab="Lambda Zeitreihe (FRM)", xlab="Suchbegriff down economy")
+abline(lm_down_eco, col="red")
