@@ -45,7 +45,6 @@ summary(regsub)
 summary(regsub)$adjr2
 
 # Alternative quality criteria - BIC criteria. The smaller the value the better is the variable/model.
-
 # Plot 2:
 dev.new()
 plot(regsub)   
