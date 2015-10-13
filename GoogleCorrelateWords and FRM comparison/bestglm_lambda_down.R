@@ -3,10 +3,8 @@ rm(list = ls(all = TRUE))
 graphics.off()
 
 # load data
-Lambda_mean = read.csv("Lambda_Zeitreihe_Mai15_weekly.csv", header = TRUE, sep = ";", 
-    dec = ",")
-ctest = read.csv("Google_Correlate_with_downturn.csv", header = TRUE, sep = ";", 
-    dec = ",")
+Lambda_mean = read.csv("Lambda_Zeitreihe_Mai15_weekly.csv", header = TRUE, sep = ";", dec = ",")
+ctest = read.csv("Google_Correlate_with_downturn.csv", header = TRUE, sep = ";", dec = ",")
 
 # install and load packages
 libraries = c("bestglm")
