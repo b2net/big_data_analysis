@@ -10,7 +10,8 @@ library(devtools)
 library(googletrend)
 
 # See the Message in the "Console" --> "your webbrowser download directory path :
-googletrend::setdownloaddir("C:/R/QNvali/downloads")
+# "path" is your working directory for Google Trend
+googletrend::setdownloaddir("path")
 
 ### Load Unemployment rate (quarterly adjusted)
 Arbeit <- read.csv("Arbeitslosenquote.csv",header=TRUE,sep=";",dec=",")
