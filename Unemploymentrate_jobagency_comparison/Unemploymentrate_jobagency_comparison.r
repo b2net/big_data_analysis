@@ -1,8 +1,8 @@
-#### Packages
 
+# Packages
 install.packages("plotrix")
 install.packages("devtools")
-
+# devtools needed
 install_github("googletrend","okugami79")
 
 library(plotrix)
@@ -13,7 +13,7 @@ library(googletrend)
 # "path" is your working directory for Google Trend
 googletrend::setdownloaddir("path")
 
-### Load Unemployment rate (quarterly adjusted)
+# Load Unemployment rate (quarterly adjusted)
 Arbeit <- read.csv("Arbeitslosenquote.csv",header=TRUE,sep=";",dec=",")
 
 #Plot 1
@@ -28,11 +28,11 @@ summary(Arbeit)
 dev.new()
 boxplot(Arbeit[,-1], ylab="Unemployment rate")
 
-#### New Data with Word "labor bureau (Arbeitsamt)"
+# New Data with Word "labor bureau (Arbeitsamt)"
 # using Google Trend
 arbeitsamt <- gettrend(keyword="Arbeitsamt", geo="DE", use.monthly=TRUE)
 
-#### Divide Numbers by Ten (for a better overview)
+# Divide Numbers by Ten (for a better overview)
 ten <- matrix(10, ncol=1, nrow=142)
 arbeitsamt2 <- cbind(arbeitsamt, ten)
 arbeit_ten <- apply(arbeitsamt2[,-1],2,function(x) (x/ten))
