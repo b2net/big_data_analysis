@@ -25,7 +25,13 @@ text(tree.oj)
 # Compare with RandomForests
 random.oj = randomForest(Purchase ~ ., OJ)
 dev.new()
+layout(matrix(c(1,2),nrow=1),
+       width=c(4,1)) 
+par(mar=c(5,4,4,0)) #No margin on the right side
 plot(random.oj, main = "Error of the random forests regression")
+par(mar=c(5,0,4,2)) #No margin on the left side
+plot(c(0,1),type="n", axes=F, xlab="", ylab="")
+legend("top", colnames(random.oj$err.rate),col=1:4,cex=0.8,fill=1:4)
 # Summary of the random forests regression
 print(random.oj)
 # technical details of the random forests regression
