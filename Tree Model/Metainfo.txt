@@ -1,0 +1,15 @@
+# ------------------------------------------------------  
+# Name of QuantLet: Decision Tree and Random Forest
+# ------------------------------------------------------  
+# Published in:  Daniel Jacob - Frühsignale für Änderungen von Konjunkturindikatoren durch Analysen von Big Data
+# ------------------------------------------------------  
+# Description:  Builds a classification tree to predict, wheater the customer choose the Citrus Hill (CH) or the
+                Minute Maid (MM) Orange Juice. Therefore we use a number of characteristics to grow a tree.
+                The second part builds a random forest with the same dataset. A visualization of the error terms are shown.
+# ------------------------------------------------------  
+# Keywords:     tree; decision-tree; visualization; regression; classification; simulation; random forest (NEW!)
+# ------------------------------------------------------   
+# Datafile:     OJ Dataset from the ILSR Package. The data contains 1070 purchases where the customer either purchased Citrus Hill or
+                Minute Maid Orange Juice. A number of characteristics of the customer and product   
+                are recorded.
+# ------------------------------------------------------  
