@@ -1,1 +1,13 @@
-Here my metainfo will appear....
+# ------------------------------------------------------  
+# Name of QuantLet: Google Trends: Time Series Comparison with Visualization and linear Regression
+# ------------------------------------------------------  
+# Published in:  Daniel Jacob - Frühsignale für Änderungen von Konjunkturindikatoren durch Analysen von Big Data
+# ------------------------------------------------------  
+# Description:  Shows how to get a time series from Google Trend with R. Shows some Outputs of linear regression with 
+a business cycle time series. Main focus points on visualization of the two time series. 
+# ------------------------------------------------------  
+# Keywords:  plot; visualization; time-series; scatterplot; boxplot; regression; linear-regression
+# ------------------------------------------------------   
+# Datafile: Arbeitslosenquote.csv = Unemployment rate for Germany by year from the "Statistisches Bundesamt". 
+ Time-period: 2005/01/01- 2014/12/01
+# ------------------------------------------------------  
