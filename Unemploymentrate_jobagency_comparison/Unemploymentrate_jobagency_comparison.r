@@ -14,7 +14,7 @@ library(googletrend)
 googletrend::setdownloaddir("path")
 
 # Load Unemployment rate (quarterly adjusted)
-Arbeit <- read.csv("Arbeitslosenquote.csv",header=TRUE,sep=";",dec=",")
+Arbeit = read.csv("Arbeitslosenquote.csv",header=TRUE,sep=";",dec=",")
 
 #Plot 1
 plot(Arbeit[,"Arbeitslosenquote"],type="l",pch=1,col="red",xaxt="n",xlab="Date",ylab="unemployment rate",ylim=c(5,13),lwd=2,
@@ -30,19 +30,19 @@ boxplot(Arbeit[,-1], ylab="Unemployment rate")
 
 # New Data with Word "labor bureau (Arbeitsamt)"
 # using Google Trend
-arbeitsamt <- gettrend(keyword="Arbeitsamt", geo="DE", use.monthly=TRUE)
+arbeitsamt = gettrend(keyword="Arbeitsamt", geo="DE", use.monthly=TRUE)
 
 # Divide Numbers by Ten (for a better overview)
-ten <- matrix(10, ncol=1, nrow=142)
-arbeitsamt2 <- cbind(arbeitsamt, ten)
-arbeit_ten <- apply(arbeitsamt2[,-1],2,function(x) (x/ten))
-arbeit_ten <- as.data.frame(arbeit_ten)
-arbeitsamt3 <- cbind(arbeitsamt[,1],arbeit_ten[,1])
-arbeitsamt4 <- cbind(arbeitsamt2, arbeitsamt3[,2])
-arbeitsamt5 <- arbeitsamt4[,-c(2,3)]
+ten = matrix(10, ncol=1, nrow=142)
+arbeitsamt2 = cbind(arbeitsamt, ten)
+arbeit_ten = apply(arbeitsamt2[,-1],2,function(x) (x/ten))
+arbeit_ten = as.data.frame(arbeit_ten)
+arbeitsamt3 = cbind(arbeitsamt[,1],arbeit_ten[,1])
+arbeitsamt4 = cbind(arbeitsamt2, arbeitsamt3[,2])
+arbeitsamt5 = arbeitsamt4[,-c(2,3)]
 
 # Linear Regression (OLS-Method) With Unemployment rate vs. Google Words
-lm_unemp_arbeitsamt <- lm(Arbeit[,2]~arbeitsamt5[13:132,2])
+lm_unemp_arbeitsamt = lm(Arbeit[,2]~arbeitsamt5[13:132,2])
 summary(lm_unemp_arbeitsamt)
 
 # Plot 3
