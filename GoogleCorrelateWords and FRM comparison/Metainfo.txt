@@ -6,12 +6,12 @@
 # Description:  Finds the best linear Model by choosing x regressors from an amount of n possible variables. 
                 It fits the regressors with the dependent variable and shows different quality criteria like R^2 and BIC-criteria.
                 Shows how to reduce the Google Correlate Dataset to deselect useless words.
-                In a further stap a OLS regression summaries the results to give more information about the model.
-                Plots a Heatmap of qualitative regressors. Plots a scatterplot with one selected regressor and the dependent variable. 
+                In a further step a OLS regression summaries the results to give more information about the model.
+                Plots a Heat-map of qualitative regressors. Plots a scatterplot with one selected regressor and the dependent variable. 
 # ------------------------------------------------------  
-# Keywords:     regression; linear regression; plot; time-series; scatterplot; correlation; heatmap (NEW!)
+# Keywords:     regression; linear regression; plot; time-series; scatterplot; correlation; heat-map (NEW!)
 # ------------------------------------------------------   
-# Datafile:     Lambda_Zeitreihe_Mai15_weekly.csv: Time-series of the Financial Risc Meter values (weekly periodicity from 07/07 - 15/05).
+# Datafile:     Lambda_Zeitreihe_Mai15_weekly.csv: Time-series of the Financial-Risk-Meter (FRM) values (weekly periodicity from 07/07 - 15/05).
                 Google_Correlate_with_downturn.csv: Google Correlate Output. Shows the 100 highly correlated search terms with the
                 search term "downturn". Time period in weekly periodicity from 04/01 - 15/03. 
 # ------------------------------------------------------  
