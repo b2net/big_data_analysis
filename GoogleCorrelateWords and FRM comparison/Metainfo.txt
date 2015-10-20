@@ -12,7 +12,7 @@
 # Google Correlate Dataset to deselect useless words.
 # In a further step a OLS regression summaries the results 
 # to give more information about the model. Additionally, 
-$ it plots a Heat-map of qualitative regressors and 
+# it plots a Heat-map of qualitative regressors and 
 # a scatterplot with one selected regressor and 
 # the dependent variable. 
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
