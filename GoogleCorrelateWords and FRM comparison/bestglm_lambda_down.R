@@ -13,7 +13,7 @@ lapply(libraries, library, quietly = TRUE, character.only = TRUE)
 Lambda_mean = read.csv("Lambda_Zeitreihe_Mai15_weekly.csv", header = TRUE, sep = ";", dec = ",")
 ctest = read.csv("Google_Correlate_with_downturn.csv", header = TRUE, sep = ";", dec = ",")
 
-# Plot 1: Financial Risk Meter
+# Plot 1: Time-series of the Financial-Risk-Meter values
 plot(Lambda_mean[, 2], type = "l", pch = 1, col = "red", xaxt = "n", xlab = "Date", 
     ylab = "Lambda", main = "Financial Risk Meter", ylim = c(0, 0.15), lwd = 2)
 axis(1, at = c(1:nrow(Lambda_mean)), labels = Lambda_mean[, 1])
@@ -41,17 +41,12 @@ ctest_clean = subset(ctest, select = -c(acai, acai.berry, banorte.mexico, blow.y
 regsub = regsubsets(x = ctest_clean[184:584, c(2:10)], y = Lambda_mean[1:401, 2], 
     nvmax = 4)
 summary(regsub)
-# Adjusted R-squared
-summary(regsub)$adjr2
+summary(regsub)$adjr2 # adjusted R-squared
 
-# Alternative quality criteria - BIC criteria. The smaller the value the better is the variable/model.
-
-# Plot 2: Summary-plot for choosing a Model
-# The darker a rectangle, the higher is the probability, that the variable is included in the model (ordered by the BIC criterion).
-# The columns (x-axis) show the possible variables for the model with respect to the BIP criterion.
-# For example: The best model would include 4 variables "bad economy", "down economy" "tough economic times" and "recession proof".
-# This heatmap plot makes sense for better interpretation if the summary(.) output is too large.
-# This may be the case, if more than 15 predictors are used for model selection.
+# Plot 2: Heatmap of the BIC criterion depending on selected variables for the regression.
+# The darker a rectangle, the higher is the probability, that the variable is included 
+# in the model (ordered by the BIC criterion). The columns (x-axis) show the possible 
+# variables for the model with respect to the BIP criterion.
 dev.new()
 plot(regsub, main = "Heatmap of the BIC criterion depending on selected variables for the regression")
 summary(regsub)$bic
@@ -62,7 +57,7 @@ summary(regsub, all.best = TRUE, matrix = TRUE, matrix.logical = FALSE, df = NUL
 lm_down_eco = lm(Lambda_mean[1:401, 2] ~ ctest_clean[179:579, "down.economy"])
 summary(lm_down_eco)
 
-# Plot 3: Regression: down.economy -- FRM shifted 5 weeks
+# Plot 3: Scatter plot between the search term „down economy“ and the time series of the Financial Risk Meter
 dev.new()
 plot(Lambda_mean[1:401, 2] ~ ctest_clean[181:581, "down.economy"],
     main = "Scatter plot between the search term „down economy“ and the time series of the Financial Risk Meter", 
