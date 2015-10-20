@@ -1,13 +1,34 @@
-# ------------------------------------------------------  
-# Name of QuantLet: Google Trends: Time Series Comparison with Visualization and linear Regression
-# ------------------------------------------------------  
-# Published in:  Daniel Jacob - Frühsignale für Änderungen von Konjunkturindikatoren durch Analysen von Big Data
-# ------------------------------------------------------  
-# Description:  Shows how to get a time series from Google Trend with R. Shows some outputs of linear regression with 
-                a business cycle time series (Unemployment rate). Main focus points on visualization of the two time series. 
-# ------------------------------------------------------  
-# Keywords:  plot; visualization; time-series; scatterplot; boxplot; regression; linear-regression
-# ------------------------------------------------------   
-# Datafile: Arbeitslosenquote.csv = Unemployment rate for Germany by year from the "Statistisches Bundesamt". 
-            Time-period: 2005/01/01- 2014/12/01
-# ------------------------------------------------------  
+# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+# Name of QuantLet : Google Trends: Time Series Comparison 
+# with Visualization and linear Regression
+# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+# Published in : Daniel Jacob - Frühsignale für Änderungen 
+# von Konjunkturindikatoren durch Analysen von Big Data
+# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+# Description : Shows how to get a time series from Google 
+# Trend with R. Shows some outputs of linear regression with 
+# a business cycle time series (Unemployment rate). Main 
+# focus points on visualization of the two time series. 
+# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+# Keywords: regression, linear-regression, time-series, 
+# scatterplot, boxplot, plot, graphical representation, 
+# data visualization, financial
+# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+# See also : 
+# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+# Author : Daniel Jacob
+# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+# Submitted : 
+# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+# Datafile : Arbeitslosenquote.csv
+# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+# Example 1: Plot of the German unemployment rate.
+# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+# Example 2: Boxplot of the German unemployment rate.
+# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+# Example 3: Scatterplot of the official German unemployment rate. 
+# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+# Example 4: More graphical representations of the Linear Regression.
+# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+# Example 5: 'Job centre' (Arbeitsamt) vs Unemployment rate.
+# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
