@@ -1,17 +1,29 @@
-# ------------------------------------------------------  
-# Name of QuantLet:  Stacked Barplots - Panel Series
-# ------------------------------------------------------  
-# Published in:  Daniel Jacob - Frühsignale für Änderungen von Konjunkturindikatoren durch Analysen von Big Data
-# ------------------------------------------------------  
-# Description: Creates two stacked barplots with legend. It is a panel series. 
-  The barplots are ordered by year and within the plots by amount/frequency. The left barplot shows the unemployment rate 
-  for Germany and his states by amount. The right barplot shows the frequency of the search term "Arbeitsamt" for Germany and his states. 
-  The bars are plotted all together with a consistent legend.
-# ------------------------------------------------------  
-# Keywords:  data visualization; plot; barchart; time-series; panel analysis
-# ------------------------------------------------------  
-# Datafile: Google_Arbeitsamt_Bundeslaender_year.csv = Google Trends Data "Arbeitsamt" for Germany/States by year.
-            Google_Arbeitsamt_Bundeslaender_monthly.csv = Google Trends Data "Arbeitsamt" for Germany/States by month.
-            Arbeitslosenquote_Bundeslaender_year.csv = Unemployment Rate Germany/States from the "Statistisches Bundesamt" by year.
-            Arbeitslosenquote_Bundeslaender_13211-0008 = Unemployment Rate Germany/States from the "Statistisches Bundesamt" by month.
-# ------------------------------------------------------  
+# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+# Name of QuantLet : Stacked Barplots - Panel Series
+# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+# Published in : Daniel Jacob - Frühsignale für Änderungen 
+# von Konjunkturindikatoren durch Analysen von Big Data
+# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+# Description : Creates two stacked barplots with legend. 
+# It is a panel series. The barplots are ordered by year 
+# and within the plots by amount/frequency. The left 
+# barplot shows the unemployment rate for Germany and 
+# his states by amount. The right barplot shows 
+# the frequency of the search term "Arbeitsamt" for 
+# Germany and his states. The bars are plotted all 
+# together with a consistent legend.
+# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+# Keywords : time-series, panel-analysis, financial,
+# plot, graphical representation, data visualization
+# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+# See also : 
+# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+# Author : Daniel Jacob
+# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+# Submitted : 
+# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+# Datafile : Google_Arbeitsamt_Bundeslaender_year.csv,
+#            Google_Arbeitsamt_Bundeslaender_monthly.csv,
+#            Arbeitslosenquote_Bundeslaender_year.csv,  
+#            Arbeitslosenquote_Bundeslaender_13211-0008.csv 
+# −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
