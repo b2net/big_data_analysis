@@ -9,7 +9,10 @@ lapply(libraries, function(x) if (!(x %in% installed.packages())) {
 })
 lapply(libraries, library, quietly = TRUE, character.only = TRUE)
 
-# load data
+# OJ Dataset from the ILSR Package. The data contains 1070 purchases 
+# where the customer either purchased Citrus Hill or Minute Maid 
+# Orange Juice. A number of characteristics of the customer and product
+# are recorded.
 data(OJ)
 OJ = data.frame(OJ)
 
