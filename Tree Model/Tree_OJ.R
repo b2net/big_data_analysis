@@ -4,7 +4,6 @@ graphics.off()
 
 # install and load packages
 libraries = c("tree", "ISLR", "randomForest")
-
 lapply(libraries, function(x) if (!(x %in% installed.packages())) {
     install.packages(x)
 })
@@ -16,23 +15,24 @@ OJ = data.frame(OJ)
 
 # Build a Tree Model with all Regressors to fit Purchase (can either by MM or CH)
 tree.oj = tree(Purchase ~ ., OJ)
-# Summary of the Classification tree
-summary(tree.oj)
-# Plot the Tree Model
-plot(tree.oj, main = "Fit of the Regression Tree")
+summary(tree.oj)     # summary of the Classification tree
+
+# Plot 1: Tree Model
+plot(tree.oj)
+title(paste("Fit of the Regression Tree"))
 text(tree.oj)
 
-# Compare with RandomForests
-random.oj = randomForest(Purchase ~ ., OJ)
+# Plot 2: Error of the random forests regression
 dev.new()
+random.oj = randomForest(Purchase ~ ., OJ)
 layout(matrix(c(1,2),nrow=1),
        width=c(4,1)) 
-par(mar=c(5,4,4,0)) #No margin on the right side
+par(mar=c(5,4,4,0)) # No margin on the right side
 plot(random.oj, main = "Error of the random forests regression")
-par(mar=c(5,0,4,2)) #No margin on the left side
+par(mar=c(5,0,4,2)) # No margin on the left side
 plot(c(0,1),type="n", axes=F, xlab="", ylab="")
 legend("top", colnames(random.oj$err.rate),col=1:4,cex=0.8,fill=1:4)
+
 # Summary of the random forests regression
 print(random.oj)
-# technical details of the random forests regression
-summary(random.oj)
+summary(random.oj) # technical details of the random forests regression
