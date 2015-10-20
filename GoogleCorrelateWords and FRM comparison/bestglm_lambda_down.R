@@ -45,13 +45,13 @@ summary(regsub)
 summary(regsub)$adjr2
 
 # Alternative quality criteria - BIC criteria. The smaller the value the better is the variable/model.
-# Plot 2: Summary-plot for choosing a Model
-#The darker a rectangle, the higher is the probability, that the variable is included in the model (ordered by the BIC criterion).
-#The columns (x-axis) show the possible variables for the model with respect to the BIP criterion.
-#For example: The best model would include 4 variables "bad economy", "down economy" "tough economic times" and "recession proof".
-#This heatmap plot makes sense for better interpretation if the summary(.) output is too large.
-#This may be the case, if more than 15 predictors are used for model selection.
 
+# Plot 2: Summary-plot for choosing a Model
+# The darker a rectangle, the higher is the probability, that the variable is included in the model (ordered by the BIC criterion).
+# The columns (x-axis) show the possible variables for the model with respect to the BIP criterion.
+# For example: The best model would include 4 variables "bad economy", "down economy" "tough economic times" and "recession proof".
+# This heatmap plot makes sense for better interpretation if the summary(.) output is too large.
+# This may be the case, if more than 15 predictors are used for model selection.
 dev.new()
 plot(regsub, main = "Heatmap of the BIC criterion depending on selected variables for the regression")
 summary(regsub)$bic
