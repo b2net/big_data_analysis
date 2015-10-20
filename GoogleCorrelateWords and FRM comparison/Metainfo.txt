@@ -26,8 +26,12 @@ $ it plots a Heat-map of qualitative regressors and
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 # Submitted : 
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Datafile : Lambda_Zeitreihe_Mai15_weekly.csv,
+# Datafile : 
+# Lambda_Zeitreihe_Mai15_weekly.csv
+# [Time-series of the Financial-Risk-Meter (FRM) values (weekly periodicity from 07/07 - 15/05)],
 # Google_Correlate_with_downturn.csv
+# [Google Correlate Output. Shows the 100 highly correlated search terms with the
+# search term "downturn". Time period in weekly periodicity from 04/01 - 15/03]
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 # Example 1: Time-series of the Financial-Risk-Meter 
 # (FRM) values (weekly periodicity from 07/07 - 15/05).
@@ -38,5 +42,3 @@ $ it plots a Heat-map of qualitative regressors and
 # Example 3: Scatter plot between the search term 
 # „down economy“ and the time series of the Financial Risk Meter.
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-
-
