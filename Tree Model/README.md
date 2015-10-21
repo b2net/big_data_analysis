@@ -1,7 +1,7 @@
 ## Tree_OJ
 
  ![Tree_OJ1.png](Tree_OJ1.png)
- ![Tree_OJ3.png](Tree_OJ3.png)
+ ![Tree_OJ2.png](Tree_OJ2.png)
  
 ```R
 # clear variables and close windows
