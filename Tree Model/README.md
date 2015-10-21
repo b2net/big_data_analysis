@@ -30,7 +30,6 @@ Example :
 - Error of the random forests regression
 ```
 
- ![Metainfo.html](Metainfo.html)
  ![Tree_OJ1.png](Tree_OJ1.png)
  ![Tree_OJ2.png](Tree_OJ2.png)
  
