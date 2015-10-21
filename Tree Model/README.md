@@ -1,7 +1,7 @@
 ## Tree_OJ
 
 ```
-{% include Metainfo.txt %}
+{% include Metainfo.html %}
 ```
 
  ![Tree_OJ1.png](Tree_OJ1.png)
