@@ -1,8 +1,8 @@
 ## Tree_OJ
 
-```
+
 {{ include Metainfo.html }}
-```
+
 
  ![Tree_OJ1.png](Tree_OJ1.png)
  ![Tree_OJ2.png](Tree_OJ2.png)
