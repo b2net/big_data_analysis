@@ -1,10 +1,33 @@
 ## Tree_OJ
 
 ```yaml
----
-layout: post
-title: Blogging Like a Boss
----
+Name of QuantLet : Decision Tree and Random Forest
+
+Published in : 'Unpublished; Theoretical description 
+of tree and random forest model in: Daniel Jacob - 
+Fruehsignale fuer Aenderungen von Konjunkturindikatoren 
+durch Analysen von Big Data'
+
+Description : 'Builds a classification tree to predict, 
+wheather the customer choose the Citrus Hill (CH) or the
+Minute Maid (MM) Orange Juice. A number of characteristics 
+is used in order to grow a tree. The second part builds 
+a random forest with the same dataset. A visualization 
+of the error terms are shown.'
+
+Keywords : 'tree, decision-tree, regression, classification,
+simulation, random-forest, plot, graphical representation,
+visualization'
+
+See also : 
+
+Author : Daniel Jacob
+
+Submitted : 
+
+Example :
+- Tree Model
+- Error of the random forests regression
 ```
 
  ![Tree_OJ1.png](Tree_OJ1.png)
