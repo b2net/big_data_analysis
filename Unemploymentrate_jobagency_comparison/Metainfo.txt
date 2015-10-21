@@ -28,7 +28,11 @@
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
 # Example 3: Scatterplot of the official German unemployment rate. 
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Example 4: More graphical representations of the Linear Regression.
+# Example 4: Graphical representation of the linear-regression (Residuals).
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
-# Example 5: 'Job centre' (Arbeitsamt) vs Unemployment rate.
+# Example 5: Graphical representation of the linear-regression (Normal Q-Q).
+# ------------------------------------------------------
+# Example 6: Biplot of 'Job centre' (Arbeitsamt) and unemployment rate.
 # −−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−
+# Example 7: Summary of the linear-regression Output. 
+# ------------------------------------------------------
