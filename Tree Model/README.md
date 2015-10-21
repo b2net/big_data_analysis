@@ -1,8 +1,11 @@
 ## Tree_OJ
 
-
-{{ include Metainfo.html }}
-
+```yaml
+---
+layout: post
+title: Blogging Like a Boss
+---
+```
 
  ![Tree_OJ1.png](Tree_OJ1.png)
  ![Tree_OJ2.png](Tree_OJ2.png)
