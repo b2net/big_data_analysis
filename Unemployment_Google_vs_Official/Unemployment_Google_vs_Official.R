@@ -71,4 +71,4 @@ Gplot_GoogleA_oL = ggplot(Google_Unemp_M, aes(x = Date, y = value, fill = variab
 
 # Step 4: Plot the two Graphs and the legend
 grid.arrange(arrangeGrob(Gplot_Unemp, Gplot_GoogleA_oL, leg, ncol = 3, widths = c(3/7, 
-    3/7, 1/7))) 
+    3/7, 1/7)))
