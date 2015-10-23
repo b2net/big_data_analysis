@@ -1,4 +1,8 @@
-## Tree_OJ
+
+![http://quantnet.wiwi.hu-berlin.de/style/banner.png](http://quantnet.wiwi.hu-berlin.de/style/banner.png)
+
+## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **Tree_OJ**
+
 
 ```yaml
 Name of QuantLet : Decision Tree and Random Forest
@@ -30,9 +34,11 @@ Example :
 - Error of the random forests regression
 ```
 
- ![Tree_OJ1.png](Tree_OJ1.png)
- ![Tree_OJ2.png](Tree_OJ2.png)
- 
+
+![Picture1](Tree_OJ1.png)
+![Picture2](Tree_OJ2.png)
+
+
 ```R
 # clear variables and close windows
 rm(list = ls(all = TRUE))
