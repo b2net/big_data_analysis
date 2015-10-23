@@ -1,14 +1,55 @@
-## Unemploymentrate_jobagency_comparison
 
- ![Unemploymentrate_jobagency_comparison1.png](Unemploymentrate_jobagency_comparison1.png)
- ![Unemploymentrate_jobagency_comparison2.png](Unemploymentrate_jobagency_comparison2.png)
- ![Unemploymentrate_jobagency_comparison3.png](Unemploymentrate_jobagency_comparison3.png)
- ![Unemploymentrate_jobagency_comparison4a.png](Unemploymentrate_jobagency_comparison4a.png)
- ![Unemploymentrate_jobagency_comparison4b.png](Unemploymentrate_jobagency_comparison4b.png)
- ![Unemploymentrate_jobagency_comparison5.png](Unemploymentrate_jobagency_comparison5.png)
- ![Unemploymentrate_jobagency_comparison6.png](Unemploymentrate_jobagency_comparison6.png)
+![http://quantnet.wiwi.hu-berlin.de/style/banner.png](http://quantnet.wiwi.hu-berlin.de/style/banner.png)
+
+## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **Unemploymentrate_jobagency_comparison**
+
+
+```yaml
+Name of QuantLet : 'Google Trends: Time Series Comparison with Visualization and linear Regression'
+
+Published in : 'Fruehsignale fuer Aenderungen von Konjunkturindikatoren durch Analysen von Big Data'
+
+Description : 'Shows how to get a time series from Google Trend with R.
+Shows some outputs of linear regression with a business cycle time series (Unemployment rate).
+Main focus points on visualization of the two time series.'
+
+Keywords: 'regression, linear-regression, time-series, scatterplot, boxplot, plot, 
+graphical representation, data visualization, financial'
+
+See also : 
+
+Author : Daniel Jacob
+
+Submitted : 
+
+Datafile : Arbeitslosenquote.csv
+
+Example :
+- Plot of the German unemployment rate.
+- Boxplot of the German unemployment rate.
+- Scatterplot of the official German unemployment rate. 
+- Graphical representation of the linear-regression (Residuals).
+- Graphical representation of the linear-regression (Normal Q-Q).
+- Biplot of 'Job centre' (Arbeitsamt) and unemployment rate.
+- Summary of the linear-regression Output.
+
+```
+
+
+![Picture1](Unemploymentrate_jobagency_comparison1.png)
+![Picture2](Unemploymentrate_jobagency_comparison2.png)
+![Picture3](Unemploymentrate_jobagency_comparison3.png)
+![Picture4](Unemploymentrate_jobagency_comparison4a.png)
+![Picture5](Unemploymentrate_jobagency_comparison4b.png)
+![Picture6](Unemploymentrate_jobagency_comparison5.png)
+![Picture7](Unemploymentrate_jobagency_comparison6.png)
+
  
 ```R
+
+# clear variables and close windows
+rm(list = ls(all = TRUE))
+graphics.off()
 
 # install and load packages
 libraries = c("plotrix", "devtools")
