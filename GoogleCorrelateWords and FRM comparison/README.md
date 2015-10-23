@@ -1,4 +1,8 @@
-## bestglm_lambda_down
+
+![http://quantnet.wiwi.hu-berlin.de/style/banner.png](http://quantnet.wiwi.hu-berlin.de/style/banner.png)
+
+## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **bestglm_lambda_down**
+
 
 ```yaml
 Name of QuantLet : Best linear Model
@@ -44,13 +48,14 @@ Lambda_Zeitreihe_Mai15_weekly.csv : 'Time-series of the Financial-Risk-Meter
 Google_Correlate_with_downturn.csv : 'Google Correlate Output. Shows the 100 
 highly correlated search terms with the search term downturn.
 Time period in weekly periodicity from 04/01 - 15/03]'
-
 ```
 
- ![bestglm_lambda_down1.png](bestglm_lambda_down1.png)
- ![bestglm_lambda_down2.png](bestglm_lambda_down2.png)
- ![bestglm_lambda_down3.png](bestglm_lambda_down3.png)
- 
+
+![Picture1](bestglm_lambda_down1.png)
+![Picture2](bestglm_lambda_down2.png)
+![Picture3](bestglm_lambda_down3.png)
+
+
 ```R
 # clear variables and close windows
 rm(list = ls(all = TRUE))
