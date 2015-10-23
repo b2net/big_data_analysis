@@ -6,7 +6,8 @@ Description : 'Shows how to get a time series from Google Trend with R.
 Shows some outputs of linear regression with a business cycle time series (Unemployment rate).
 Main focus points on visualization of the two time series.'
 
-Keywords: regression, linear-regression, time-series, scatterplot, boxplot, plot, graphical representation, data visualization, financial
+Keywords: 'regression, linear-regression, time-series, scatterplot, boxplot, plot, 
+graphical representation, data visualization, financial'
 
 See also : 
 
