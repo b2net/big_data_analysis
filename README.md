@@ -9,9 +9,7 @@
 
 ## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **Unemploymentrate_jobagency_comparison**
 
+### Here you see some plots from this repository:
 
-
-
-
-![Picture1](<PIC_NAME>.png)
+![Picture1](https://github.com/QuantLet/big_data_analysis/blob/master/GoogleCorrelateWords%20and%20FRM%20comparison/bestglm_lambda_down1.png)
 
