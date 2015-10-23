@@ -12,4 +12,6 @@
 ### Here you see some plots from this repository:
 
 ![Picture1](https://github.com/QuantLet/big_data_analysis/blob/master/GoogleCorrelateWords%20and%20FRM%20comparison/bestglm_lambda_down1.png)
+![Picture2](https://github.com/QuantLet/big_data_analysis/blob/master/Unemployment_Google_vs_Official/Unemployment_Google_vs_Official.png)
+![Picture3](https://github.com/QuantLet/big_data_analysis/blob/master/GoogleCorrelateWords%20and%20FRM%20comparison/bestglm_lambda_down3.png)
 
