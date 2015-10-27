@@ -10,7 +10,7 @@
 ## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **[Unemploymentrate_jobagency_comparison](https://github.com/QuantLet/big_data_analysis/tree/master/Unemploymentrate_jobagency_comparison)**
 
 ### Abstract of the work:
-In times, where we collect more and more data about individuals, it`s nearby to use these for economic research.
+In times, where we collect more and more data about individuals, it makes sense to use these for economic research.
 Publications with the title „Big Data“ are growing since years. 
 This Paper describes the current state of research and shows which steps are necessary to work with unstructured and high dimensional data.
 Therefore, methods for data structuring will be shown and evaluated. Statistical techniques will be described and used with different datasets.
