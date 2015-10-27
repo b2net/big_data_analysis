@@ -1,8 +1,7 @@
 
 Name of QuantLet : 'Stacked Barplots - Panel Series'
 
-Published in : 'Daniel Jacob - Fruehsignale fuer Aenderungen 
-von Konjunkturindikatoren durch Analysen von Big Data'
+Published in : Fruehsignale fuer Aenderungen von Konjunkturindikatoren durch Analysen von Big Data
 
 Description : 'Creates two stacked barplots with legend. 
 It is a panel series. The barplots are ordered by year 

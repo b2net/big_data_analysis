@@ -1,10 +1,8 @@
 
 Name of QuantLet : Decision Tree and Random Forest
 
-Published in : 'Unpublished; Theoretical description 
-of tree and random forest model in: Daniel Jacob - 
-Fruehsignale fuer Aenderungen von Konjunkturindikatoren 
-durch Analysen von Big Data'
+Published in : 'Unpublished; Theoretical description of tree and random forest model in:
+Fruehsignale fuer Aenderungen von Konjunkturindikatoren durch Analysen von Big Data'
 
 Description : 'Builds a classification tree to predict, 
 wheather the customer choose the Citrus Hill (CH) or the

@@ -1,8 +1,7 @@
 
 Name of QuantLet : Best linear Model
 
-Published in : 'Daniel Jacob - Fruehsignale fuer Aenderungen 
-von Konjunkturindikatoren durch Analysen von Big Data'
+Published in : Fruehsignale fuer Aenderungen von Konjunkturindikatoren durch Analysen von Big Data
 
 Description : 'Finds the best linear model by choosing 
 x regressors from an amount of n possible variables. 
