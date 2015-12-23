@@ -1,5 +1,5 @@
 
-Name of QuantLet : 'Stacked Barplots - Panel Series'
+Name of QuantLet : Unemployment_Google_vs_Official
 
 Published in : Frühsignale für Änderungen von Konjunkturindikatoren durch Analysen von Big Data
 
