@@ -1,10 +1,11 @@
 
-Name of QuantLet : Decision Tree and Random Forest
+Name of QuantLet : Tree_OJ
 
 Published in : 'Unpublished; Theoretical description of tree and random forest model in:
 Frühsignale für Änderungen von Konjunkturindikatoren durch Analysen von Big Data'
 
-Description : 'Builds a classification tree to predict, 
+Description : 'Decision Tree and Random Forest:
+Builds a classification tree to predict, 
 wheather the customer choose the Citrus Hill (CH) or the
 Minute Maid (MM) Orange Juice. A number of characteristics 
 is used in order to grow a tree. The second part builds 
