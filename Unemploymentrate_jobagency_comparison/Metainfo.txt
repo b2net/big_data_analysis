@@ -1,6 +1,6 @@
-Name of QuantLet : 'Google Trends: Time Series Comparison with Visualization and linear Regression'
+Name of QuantLet : Unemploymentrate_jobagency_comparison
 
-Published in : Fruehsignale fuer Aenderungen von Konjunkturindikatoren durch Analysen von Big Data
+Published in : Frühsignale für Änderungen von Konjunkturindikatoren durch Analysen von Big Data
 
 Description : 'Shows how to get a time series from Google Trend with R.
 Shows some outputs of linear regression with a business cycle time series (Unemployment rate).
@@ -18,10 +18,10 @@ Submitted :
 Datafile : Arbeitslosenquote.csv
 
 Example :
-- Plot of the German unemployment rate.
-- Boxplot of the German unemployment rate.
-- Scatterplot of the official German unemployment rate. 
-- Graphical representation of the linear-regression (Residuals).
-- Graphical representation of the linear-regression (Normal Q-Q).
-- Biplot of 'Job centre' (Arbeitsamt) and unemployment rate.
-- Summary of the linear-regression Output.
+- 1: Plot of the German unemployment rate.
+- 2: Boxplot of the German unemployment rate.
+- 3: Scatterplot of the official German unemployment rate. 
+- 4: Graphical representation of the linear-regression (Residuals).
+- 5: Graphical representation of the linear-regression (Normal Q-Q).
+- 6: Biplot of 'Job centre' (Arbeitsamt) and unemployment rate.
+- 7: Summary of the linear-regression Output.
