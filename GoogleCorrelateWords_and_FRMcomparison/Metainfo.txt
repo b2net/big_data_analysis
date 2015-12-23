@@ -1,7 +1,7 @@
 
 Name of QuantLet : Best linear Model
 
-Published in : Fruehsignale fuer Aenderungen von Konjunkturindikatoren durch Analysen von Big Data
+Published in : Frühsignale für Änderungen von Konjunkturindikatoren durch Analysen von Big Data
 
 Description : 'Finds the best linear model by choosing 
 x regressors from an amount of n possible variables. 
@@ -27,17 +27,19 @@ Author : Daniel Jacob
 
 Submitted : 
 
-Example : 
-- 'Time-series of the Financial-Risk-Meter 
-(FRM) values (weekly periodicity from 07/07 - 15/05).'
-- 'Heatmap of the BIC criterion depending on 
-selected variables for the regression.'
-- 'Scatter plot between the search term 
-down economy and the time series of the Financial Risk Meter.'
+Datafile:
 
-Lambda_Zeitreihe_Mai15_weekly.csv : 'Time-series of the Financial-Risk-Meter
+- Lambda_Zeitreihe_Mai15_weekly.csv : 'Time-series of the Financial-Risk-Meter
 (FRM) values (weekly periodicity from 07/07 - 15/05)'
 
-Google_Correlate_with_downturn.csv : 'Google Correlate Output. Shows the 100 
+- Google_Correlate_with_downturn.csv : 'Google Correlate Output. Shows the 100 
 highly correlated search terms with the search term downturn.
 Time period in weekly periodicity from 04/01 - 15/03]'
+
+Example : 
+- 1: 'Time-series of the Financial-Risk-Meter 
+(FRM) values (weekly periodicity from 07/07 - 15/05).'
+- 2: 'Heatmap of the BIC criterion depending on 
+selected variables for the regression.'
+- 3: 'Scatter plot between the search term 
+down economy and the time series of the Financial Risk Meter.'
