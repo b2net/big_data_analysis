@@ -1,19 +1,18 @@
 
 Name of QuantLet : 'Stacked Barplots - Panel Series'
 
-Published in : Fruehsignale fuer Aenderungen von Konjunkturindikatoren durch Analysen von Big Data
+Published in : Frühsignale für Änderungen von Konjunkturindikatoren durch Analysen von Big Data
 
 Description : 'Creates two stacked barplots with legend. 
 It is a panel series. The barplots are ordered by year 
 and within the plots by amount/frequency. The left 
 barplot shows the unemployment rate for Germany and 
 its states by amount. The right barplot shows 
-the frequency of the search term <Arbeitsamt> for 
+the frequency of the search term ''Arbeitsamt'' for 
 Germany and its states. The bars are plotted all 
 together with a consistent legend.'
 
-Keywords : 'time-series, panel-analysis, financial,
-plot, graphical representation, data visualization'
+Keywords : 'time-series, panel-analysis, financial, plot, graphical representation, data visualization'
 
 See also : 
 
