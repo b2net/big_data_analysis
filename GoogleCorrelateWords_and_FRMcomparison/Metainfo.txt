@@ -1,5 +1,5 @@
 
-Name of QuantLet : Best linear Model
+Name of QuantLet : bestglm_lambda_down
 
 Published in : Frühsignale für Änderungen von Konjunkturindikatoren durch Analysen von Big Data
 
