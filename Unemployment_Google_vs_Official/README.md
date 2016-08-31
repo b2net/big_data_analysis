@@ -7,7 +7,7 @@
 
 Name of QuantLet : Unemployment_Google_vs_Official
 
-Published in : FrÃ¼hsignale fÃ¼r Ã„nderungen von Konjunkturindikatoren durch Analysen von Big Data
+Published in : Frühsignale für Änderungen von Konjunkturindikatoren durch Analysen von Big Data
 
 Description : 'Creates two stacked barplots with legend. It is a panel series. The barplots are
 ordered by year and within the plots by amount/frequency. The left barplot shows the unemployment
