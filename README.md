@@ -1,9 +1,9 @@
 
 [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="880" alt="Visit QuantNet">](http://quantlet.de/index.php?p=info)
 
-## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **[bestglm_lambda_down](GoogleCorrelateWords_and_FRMcomparison)**
+## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **[GoogleCorrelateWords_and_FRMcomparison](GoogleCorrelateWords_and_FRMcomparison)**
 
-## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **[Tree_OJ](TreeModel)**
+## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **[TreeModel](TreeModel)**
 
 ## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **[Unemployment_Google_vs_Official](Unemployment_Google_vs_Official)**
 
