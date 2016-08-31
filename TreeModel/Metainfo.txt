@@ -1,26 +1,16 @@
 
-Name of QuantLet : Tree_OJ
+Name of QuantLet : TreeModel
 
-Published in : 'Unpublished; Theoretical description of tree and random forest model in:
-Frühsignale für Änderungen von Konjunkturindikatoren durch Analysen von Big Data'
+Published in : Frühsignale für Änderungen von Konjunkturindikatoren durch Analysen von Big Data
 
-Description : 'Decision Tree and Random Forest:
-Builds a classification tree to predict, 
-wheather the customer choose the Citrus Hill (CH) or the
-Minute Maid (MM) Orange Juice. A number of characteristics 
-is used in order to grow a tree. The second part builds 
-a random forest with the same dataset. A visualization 
-of the error terms are shown.'
+Description : 'Decision Tree and Random Forest: Builds a classification tree to predict, 
+wheather the customer choose the Citrus Hill (CH) or the Minute Maid (MM) Orange Juice.
+A number of characteristics is used in order to grow a tree. The second part builds a random forest with the same dataset.
+A visualization of the error terms are shown.'
 
-Keywords : 'tree, decision-tree, regression, classification,
-simulation, random-forest, plot, graphical representation,
-visualization'
-
-See also : 
+Keywords : 'tree, decision-tree, regression, classification, simulation, random-forest, plot, graphical representation, visualization'
 
 Author : Daniel Jacob
-
-Submitted : 
 
 Example :
 - 1: Tree Model
