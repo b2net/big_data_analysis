@@ -1,45 +1,25 @@
 
-Name of QuantLet : bestglm_lambda_down
+Name of QuantLet : GoogleCorrelateWords_and_FRMcomparison
 
 Published in : Frühsignale für Änderungen von Konjunkturindikatoren durch Analysen von Big Data
 
-Description : 'Finds the best linear model by choosing 
-x regressors from an amount of n possible variables. 
-It fits the regressors with the dependent variable 
-and shows different quality criteria like R^2 and 
-BIC-criteria. Additionally, it shows how to reduce the 
-Google Correlate Dataset to deselect useless words.
-In a further step a OLS regression summaries the results 
-to give more information about the model. Additionally, 
-it plots a Heat-map of qualitative regressors and 
-a scatterplot with one selected regressor and 
-the dependent variable.'
+Description : 'Finds the best linear model by choosing x regressors from an amount of n possible variables. 
+It fits the regressors with the dependent variable and shows different quality criteria like R^2 and 
+BIC-criteria. Additionally, it shows how to reduce the Google Correlate Dataset to deselect useless words.
+In a further step a OLS regression summaries the results to give more information about the model. Additionally, 
+it plots a Heat-map of qualitative regressors and a scatterplot with one selected regressor and the dependent variable.'
 
-Keywords : 'regression, linear-regression, correlation,
-bic, R-squared, time-series, heat-map, financial, linear-model,
-scatterplot, plot, graphical representation, data visualization'
-
-Keywords[new] : google, google trends
-
-See also : 
+Keywords : 'regression, linear-regression, correlation, bic, R-squared, time-series, heat-map, financial, linear-model,
+scatterplot, plot, graphical representation, data visualization, google, google trends'
 
 Author : Daniel Jacob
 
-Submitted : 
-
 Datafile:
-
-- Lambda_Zeitreihe_Mai15_weekly.csv : 'Time-series of the Financial-Risk-Meter
-(FRM) values (weekly periodicity from 07/07 - 15/05)'
-
-- Google_Correlate_with_downturn.csv : 'Google Correlate Output. Shows the 100 
-highly correlated search terms with the search term downturn.
+- Lambda_Zeitreihe_Mai15_weekly.csv : 'Time-series of the Financial-Risk-Meter (FRM) values (weekly periodicity from 07/07 - 15/05)'
+- Google_Correlate_with_downturn.csv : 'Google Correlate Output. Shows the 100 highly correlated search terms with the search term downturn.
 Time period in weekly periodicity from 04/01 - 15/03]'
 
 Example : 
-- 1: 'Time-series of the Financial-Risk-Meter 
-(FRM) values (weekly periodicity from 07/07 - 15/05).'
-- 2: 'Heatmap of the BIC criterion depending on 
-selected variables for the regression.'
-- 3: 'Scatter plot between the search term 
-down economy and the time series of the Financial Risk Meter.'
+- 1: 'Time-series of the Financial-Risk-Meter (FRM) values (weekly periodicity from 07/07 - 15/05).'
+- 2: 'Heatmap of the BIC criterion depending on selected variables for the regression.'
+- 3: 'Scatter plot between the search term down economy and the time series of the Financial Risk Meter.'
