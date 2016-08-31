@@ -1,3 +1,4 @@
+
 # clear variables and close windows
 rm(list = ls(all = TRUE))
 graphics.off()
