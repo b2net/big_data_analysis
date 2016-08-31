@@ -1,3 +1,4 @@
+
 Name of QuantLet : Unemploymentrate_jobagency_comparison
 
 Published in : Frühsignale für Änderungen von Konjunkturindikatoren durch Analysen von Big Data
@@ -6,14 +7,9 @@ Description : 'Shows how to get a time series from Google Trend with R.
 Shows some outputs of linear regression with a business cycle time series (Unemployment rate).
 Main focus points on visualization of the two time series.'
 
-Keywords: 'regression, linear-regression, time-series, scatterplot, boxplot, plot, 
-graphical representation, data visualization, financial'
-
-See also : 
+Keywords: 'regression, linear-regression, time-series, scatterplot, boxplot, plot, graphical representation, data visualization, financial'
 
 Author : Daniel Jacob
-
-Submitted : 
 
 Datafile : Arbeitslosenquote.csv
 
