@@ -7,7 +7,7 @@
 
 Name of QuantLet : GoogleCorrelateWords_and_FRMcomparison
 
-Published in : FrÃ¼hsignale fÃ¼r Ã„nderungen von Konjunkturindikatoren durch Analysen von Big Data
+Published in : Frühsignale für Änderungen von Konjunkturindikatoren durch Analysen von Big Data
 
 Description : 'Finds the best linear model by choosing x regressors from an amount of n possible
 variables. It fits the regressors with the dependent variable and shows different quality criteria
